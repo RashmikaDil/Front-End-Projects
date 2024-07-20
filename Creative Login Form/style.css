@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    background:linear-gradient(#b0f8e9,#37dacc);
+    box-sizing: border-box  ;
+    align-items: center;
+    justify-content: center;
+    height: 100vb;
+    display:  flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    width: 900px;
+    height: 600px;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 30px;
+    filter: drop-shadow(1px 1px 10px #444444);
+}
+.content_box1{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(50deg , rgb(1, 167, 158),#005543);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_box2{
+    width: 50%;
+    height: 100%;
+    background: white; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #005543;
+ 
+ 
+}
+.content_box2 input{
+    width: 350px;
+    padding: 12px;
+    margin: 10px;
+    border: none;
+    background: #e3f8f5;
+    color: #005543;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.content_box2 h3{
+    width: 75%;
+    padding: 0px;
+    margin: 0px;
+}
+.notreg{
+    background: #005543;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    border-radius: 40px;
+    width: 100%;
+    display:block;
+}
+
+
+.login_btn{
+    width: auto;
+    padding: 10px;
+    margin: 10px 40px;
+    background: #005543;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    user-select: none; 
+}
+.login_btn:active {
+    box-shadow: 0 2px #00b3a4;
+    transform: translateY(3px);
+}
+.login{
+    width: auto;
+    height: auto;
+    text-align: center;
+
+}
+.banner{
+    width: 150px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.first{
+    position: fixed;
+    left: 50%;
+    top: 20px;
+}
+.sec{
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+}
