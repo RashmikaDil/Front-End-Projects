@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+        <a href="#">LOGO</a>
+    </div>
+        <ul>
+            <li> <a href="">Home</a></li>
+            <li> <a href="">Shop</a></li>
+            <li> <a href="">About</a></li>
+            <li> <a href="">Contact us</a></li>
+            
+        </ul>
+    </header>
+    <section class="p">
+        <img src="moon.png" alt=""style="width: 20%;bottom:70%;  position: absolute;" id="moon">
+       
+        <img src="p2.png" alt=""style="width: 100%; position: absolute;bottom:0px;"id="p2">
+        
+        <img src="p1.png" alt=""style="width: 100%; position: absolute;bottom:0px;">
+        <h2 id="name">PARALAX</h2>
+        
+    </section>
+<div class="textBody"> 
+    <h1>PARALAX WEB SITE</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+    
+    <br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aut quis nobis reiciendis? Delectus repudiandae atque eveniet nemo adipisci laboriosam, voluptate officia cum velit nam ea aperiam vero? Sit, ipsum!
+
+</p>
+</div>
+
+<script>
+    let name = document.getElementById('name');
+    let p2 = document.getElementById("p2");
+    let moon = document.getElementById("moon");
+
+    window.addEventListener('scroll', () => {
+        let value = window.scrollY;
+        
+        name.style.marginTop = value * 2.5 +'px';
+        p2.style.left = value * -1.5 +'px';
+        moon.style.top = value * 1.1 +'px';
+    });
+</script>
+</body>
+</html>

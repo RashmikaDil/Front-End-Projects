@@ -1,0 +1,83 @@
+@import "preset";
+@import "var";
+@import "p_img";
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+}
+.header ul{
+    display: flex;
+}
+.header ul li{
+    list-style: none;
+    padding: $logopadding;
+    margin: $logomargin;
+    text-decoration: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color: $navTextC;
+}
+.header ul li a:hover{
+    filter: drop-shadow(1px 1px 2px white);
+}
+.logo{
+    padding: $logopadding   ;
+    margin: $logomargin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.p {
+   
+    width: 100%;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+
+
+}
+h2{
+    font-size: 100PX;
+    font-weight: 900;
+    color: rgb(221, 223, 255);
+}
+.textBody{
+    position:relative;
+    display: flex;
+    flex-direction:column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    background: rgb(13, 1, 41);
+}
+.textBody h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: rgb(96, 106, 255);
+}
+.textBody p{
+    padding: 10px 200px;
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 50;
+    color: rgb(100, 103, 250);
+}
